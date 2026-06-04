@@ -70,7 +70,7 @@ form.addEventListener("submit", (e) => {
 
   const data = {
     username: username.value,
-    password: password.value, 
+    password: password.value,
   };
 
   fetch("http://localhost:3000/login", {
@@ -91,4 +91,3 @@ form.addEventListener("submit", (e) => {
   form.reset();
 });
 
-showNotification("Esse sistema esta em desenvolvimento. Por favar aguarde....", "info");
